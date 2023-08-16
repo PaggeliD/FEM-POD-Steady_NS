@@ -1,7 +1,2 @@
 # FEM-POD-Steady_NS
-This repository contains a reduced order model using the Proper Orthogonal Decomposition (POD). As an example we chose the standard 2D cavity flow (steady Navier-Stokes equation). The problem states as follows: Find $(\mathbf{u},p)$ such that:
-\begin{align}
-   \mathbf{u}\cdot\nabla\mathbf{u} - \nu\Delta\mathbf{u} 
-      + \nabla p &= 0  \\
-   \nabla\cdot u &= 0
-\end{align}
+This repository contains a reduced order model using the Proper Orthogonal Decomposition (POD). As an example we chose the standard 2D cavity flow (steady Navier-Stokes equation). The mathematical framework behind the Finite Element Method and the POD method, as well as, some numerical results are stated in the .pdf file. You don't need any data to run the code, since they are generated from the function "nvst" found in the .ipynb file. The main idea of this project was derived from [here](https://www.um.es/freefem/ff++/pmwiki.php?n=Main.POD).
