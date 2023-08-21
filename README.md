@@ -5,3 +5,5 @@ The code was implemented using Python 3.10.12 on Ubuntu 22.04. The required depe
 * [NumPy](https://numpy.org/)
 * [SciPy](https://scipy.org/)
 * [Netgen/NGSolve](https://ngsolve.org/)
+## References
+- [Gruber, A., Gunzburger, M., Ju, L., & Wang, Z. (2022). A comparison of neural network architectures for data-driven reduced-order modeling. Computer Methods in Applied Mechanics and Engineering, 393, 114764.](https://arxiv.org/pdf/2110.03442.pdf)
